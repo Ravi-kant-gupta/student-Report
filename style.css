@@ -1,0 +1,62 @@
+.top-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+}
+.school-logo{
+    height: 65px;
+    width: 65px;
+}
+.School-name{
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+@media(max-width:768px){
+    .School-name{
+        font-weight: bolder;
+        font-size: 20px;
+    }
+}
+
+.table-data{
+    text-align: center;
+    width: 80%;
+}
+
+table,th,tr,td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.row{
+    border: 2px black;
+    border-collapse: collapse;
+}
+
+.no-border{
+    border: 0px;
+}
+
+.value{
+    text-align: left;
+}
+
+.no-border-x{
+    border: 0px;
+    border-bottom: 2px solid black;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.show-loading{
+    display: none;
+}
+.show-report{
+    display: none;
+}
